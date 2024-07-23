@@ -1,0 +1,57 @@
+
+Educational Management System
+This project implements a backend system for managing users, courses, and user interactions in an educational setting.
+
+Features:
+
+User Management:
+Create user accounts with different roles (Admin, Doctor/Teacher, Teaching Assistant, Student).
+Secure password storage using hashing algorithms (bcrypt recommended).
+Course Management:
+Create, edit, and view course details.
+Restrict access to course management functionalities based on user roles.
+Student Management:
+Register for courses within the registration period.
+Unregister from courses before the deadline.
+View registered courses and assignments.
+Submit solutions for assignments.
+Prerequisites:
+
+Python 3.x
+Database (e.g., MySQL) with appropriate drivers (e.g., pyodbc for MS SQL Server)
+Installation:
+
+
+Install dependencies:
+
+
+pip install requirements.txt
+
+Database Setup:
+
+Configure your database connection details in education_db.py.
+Create the necessary tables in your database based on the defined classes (refer to the code for table structures).
+Usage:
+
+Run the main script (e.g., main.py) to start the application.
+The application will prompt for user login credentials.
+Based on the user role, the system will provide a menu with relevant functionalities.
+Documentation:
+
+Refer to the comprehensive documentation file (documentation.txt) for detailed information about the code structure, functionalities, class interactions, and database interaction.
+
+Further Enhancements:
+
+Assignment Management (creation, deadlines, grading).
+Communication features (notifications, announcements).
+Reporting functionalities for admins.
+User Interface (web, desktop, or mobile).
+Contributing:
+
+We welcome contributions to this project. Please create pull requests with clear explanations of your changes. Ensure your contributions follow code style conventions and adhere to best practices.
+
+
+
+Disclaimer:
+
+This project is provided for educational purposes only. It is recommended to further secure and enhance the system functionalities based on specific deployment requirements.
